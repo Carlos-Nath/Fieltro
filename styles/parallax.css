@@ -1,6 +1,9 @@
+*{
+margin: 0;
+}
 .parallax {
     background-image: url("http://lorempixel.com/g/400/200/");/*colocar aquí la url de la imágen de fondo para parallax*/
-    min-height: 300px;
+    min-height: 160px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;

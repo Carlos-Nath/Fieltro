@@ -1,20 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/parallax.css">
-</head>
-<body>
-    <p>Lorem, ipsum dolor.</p>
-
-    <div class="parallax"></div>
-
-    <div class="parallax-body">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis 
-        quibusdam pariatur aspernatur temporibus quod, ut vero amet 
-        ipsum voluptatibus placeat. Lorem, ipsum dolor.
-    </div>
-</body>
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <title>
+            Document
+        </title>
+        <link href="styles/parallax.css" rel="stylesheet"/>
+        <link href="styles/navbarr.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div>
+            <div class="navbar">
+                <ul class="navbar-horizontal">
+                    <li class="navbar-item">
+                        <a class="active item" href="javascript:redirectTo('inicio')">
+                            INICIO
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="item" href="javascript:redirectTo('temas')">
+                            TEMAS
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="item" href="javascript:redirectTo('quienessomos')">
+                            QUIENES SOMOS
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="parallax">
+            </div>
+            <div class="parallax-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis 
+                quibusdam pariatur aspernatur temporibus quod, ut vero amet 
+                ipsum voluptatibus placeat. Lorem, ipsum dolor.
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
 </html>
